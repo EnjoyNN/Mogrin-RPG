@@ -1,0 +1,12 @@
+C:\Users\Nikitttovich\Desktop\Test1\bin\Debug\Test1.exe.config
+C:\Users\Nikitttovich\Desktop\Test1\bin\Debug\Test1.exe
+C:\Users\Nikitttovich\Desktop\Test1\bin\Debug\Test1.pdb
+C:\Users\Nikitttovich\Desktop\Test1\obj\Debug\Test1.csprojAssemblyReference.cache
+C:\Users\Nikitttovich\Desktop\Test1\obj\Debug\Test1.Form_Main.resources
+C:\Users\Nikitttovich\Desktop\Test1\obj\Debug\Test1.Form_Rules.resources
+C:\Users\Nikitttovich\Desktop\Test1\obj\Debug\Test1.Properties.Resources.resources
+C:\Users\Nikitttovich\Desktop\Test1\obj\Debug\Test1.csproj.GenerateResource.cache
+C:\Users\Nikitttovich\Desktop\Test1\obj\Debug\Test1.csproj.CoreCompileInputs.cache
+C:\Users\Nikitttovich\Desktop\Test1\obj\Debug\Test1.exe
+C:\Users\Nikitttovich\Desktop\Test1\obj\Debug\Test1.pdb
+C:\Users\Nikitttovich\Desktop\Test1\obj\Debug\Test1.Form_Invent.resources

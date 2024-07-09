@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D87E582B-2449-42EF-AB82-9D7E4EC0A7F2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Test1</RootNamespace>
+    <AssemblyName>Test1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8-битва-50.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProcedureClass.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Invent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Invent.Designer.cs">
+      <DependentUpon>Form_Invent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Rules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Rules.Designer.cs">
+      <DependentUpon>Form_Rules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Invent.resx">
+      <DependentUpon>Form_Invent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Rules.resx">
+      <DependentUpon>Form_Rules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\450e7c41b2d3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52ebb4643b964c74adafaf71e4a5f490.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-битва-50.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8-битва-50.ico" />
+    <None Include="Resources\купля продажа.wav" />
+    <None Include="Resources\post-160700-1434435666.jpg" />
+    <None Include="Resources\pngkey.com-scroll-icon-png-3354636.png" />
+    <None Include="Resources\6ff82a18488f2d1e5bb53c05010cc893.jpg" />
+    <None Include="Resources\kisspng-computer-icons-gold-coin-clip-art-coins-5ab59bbd3219c2.3026579715218513252052.jpg" />
+    <None Include="Resources\могрин_под_отваром.png" />
+    <None Include="Resources\выпито зелье.wav" />
+    <None Include="Resources\a44f0670c6471c943b541d6cb6c868e0--clip-cricut.jpg" />
+    <None Include="Resources\magic_square_flask-512.png" />
+    <None Include="Resources\щитмогрина1.png" />
+    <None Include="Resources\щитмога6.png" />
+    <None Include="Resources\щитмога5.png" />
+    <None Include="Resources\щитмога4.png" />
+    <None Include="Resources\щитмога3.png" />
+    <None Include="Resources\щитмога2.png" />
+    <None Include="Resources\ножигоба5.png" />
+    <None Include="Resources\ножигоба4.png" />
+    <None Include="Resources\ножигоба3.png" />
+    <None Include="Resources\ножигоба2.png" />
+    <None Include="Resources\ножигоба1.png" />
+    <None Include="Resources\мечгоба5.png" />
+    <None Include="Resources\мечгоба4.png" />
+    <None Include="Resources\мечгоба3.png" />
+    <None Include="Resources\мечгоба2.png" />
+    <None Include="Resources\мечгоба1.png" />
+    <None Include="Resources\шар5.png" />
+    <None Include="Resources\шар4.png" />
+    <None Include="Resources\шар3.png" />
+    <None Include="Resources\шар2.png" />
+    <None Include="Resources\шар1.png" />
+    <None Include="Resources\ножи5.png" />
+    <None Include="Resources\ножи4.png" />
+    <None Include="Resources\ножи3.png" />
+    <None Include="Resources\ножи2.png" />
+    <None Include="Resources\ножи1.png" />
+    <None Include="Resources\щит6.png" />
+    <None Include="Resources\щит5.png" />
+    <None Include="Resources\щит4.png" />
+    <None Include="Resources\щит3.png" />
+    <None Include="Resources\щит2.png" />
+    <None Include="Resources\щит1.png" />
+    <None Include="Resources\топор5.png" />
+    <None Include="Resources\топор4.png" />
+    <None Include="Resources\топор3.png" />
+    <None Include="Resources\топор2.png" />
+    <None Include="Resources\топор1.png" />
+    <None Include="Resources\молния3.png" />
+    <None Include="Resources\молния2.png" />
+    <None Include="Resources\молния1.png" />
+    <None Include="Resources\молния 4.png" />
+    <None Include="Resources\5молния.png" />
+    <None Include="Resources\промах.wav" />
+    <None Include="Resources\удар топором.wav" />
+    <None Include="Resources\огненный шар.wav" />
+    <None Include="Resources\ножи орка.wav" />
+    <None Include="Resources\молния.wav" />
+    <None Include="Resources\меч.wav" />
+    <None Include="Resources\мет ножи гоба.wav" />
+    <None Include="Resources\левел.wav" />
+    <None Include="Resources\гоблин получил.wav" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\skull-knife-euclidean-skull-sword-inserted-in-the-knife-pierced-through-skull-illustration-png-clip-art.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
